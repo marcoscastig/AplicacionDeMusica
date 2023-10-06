@@ -41,7 +41,7 @@ function mostrarLista(genero) {
 // Función para seleccionar y reproducir una canción
 function seleccionarMusica(cancion) {
   const nuevoAudio = document.createElement('audio')
-  const rutaCancion = `canciones/${cancion}.mp3`; 
+  const rutaCancion = `sonido/canciones/${cancion}.mp3`; 
   
   
   nuevoAudio.src = rutaCancion;
